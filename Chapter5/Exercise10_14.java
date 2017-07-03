@@ -9,10 +9,14 @@ public class Exercise10_12 {
         
         
         //12 编写一个tank类，对应现实，对象被回收时必须处于空状态，如果不是，在finalize中报异常
-        new Tank().install();
+        Tank tank = new Tank();
+        tank.install();
+        tank=null;
         System.gc();
         Thread.sleep(1000);
         
+        //13太简单
+        //14。在构造方法中可以调用，直接用类名调用。
         
     }
 }
