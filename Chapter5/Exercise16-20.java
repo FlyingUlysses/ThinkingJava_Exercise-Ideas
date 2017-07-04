@@ -19,7 +19,8 @@ public class Exercise16 {
         String[] sss={"2","22"};
         Nighteen.test(sss );
 
-        //20.太简单
+        //20.太简单,省略
+    
     }
 }
 
